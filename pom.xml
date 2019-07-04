@@ -14,19 +14,71 @@
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <easy.rules.version>3.3.0</easy.rules.version>
+        <slf4j.version>1.7.25</slf4j.version>
+        <log4j.version>2.11.1</log4j.version>
+        <aws.version>1.11.584</aws.version>
+        <graphql.version>11.0</graphql.version>
+
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
     </properties>
 
+    <dependencyManagement>
     <dependencies>
+        <dependency>
+            <groupId>org.jeasy</groupId>
+            <artifactId>easy-rules-core</artifactId>
+            <version>${easy.rules.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jeasy</groupId>
+            <artifactId>easy-rules-mvel</artifactId>
+            <version>${easy.rules.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.jeasy</groupId>
+            <artifactId>easy-rules-support</artifactId>
+            <version>${easy.rules.version}</version>
+        </dependency>
+
         <dependency>
             <groupId>com.amazonaws</groupId>
             <artifactId>aws-java-sdk</artifactId>
-            <version>1.11.584</version>
+            <version>${aws.version}</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>${log4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.graphql-java</groupId>
+            <artifactId>graphql-java</artifactId>
+            <version>${graphql.version}</version>
+        </dependency>
+    </dependencies>
+
+    </dependencyManagement>
+    <dependencies>
+
 <!--        <dependency>
             <groupId>software.amazon.awssdk</groupId>
             <artifactId>aws-sdk-java</artifactId>
             <version>2.6.4</version>
         </dependency>-->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.2</version>
+        </dependency>
     </dependencies>
 
     <build>

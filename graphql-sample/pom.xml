@@ -11,5 +11,16 @@
 
     <artifactId>graphql-sample</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.graphql-java</groupId>
+            <artifactId>graphql-java</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-simple</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>
