@@ -9,6 +9,7 @@
         <module>aws-sample</module>
         <module>easy-rules-sample</module>
         <module>graphql-sample</module>
+        <module>spring-aop-sample</module>
     </modules>
     <packaging>pom</packaging>
 
