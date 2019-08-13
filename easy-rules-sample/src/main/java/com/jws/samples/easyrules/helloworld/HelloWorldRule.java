@@ -4,7 +4,7 @@ import org.jeasy.rules.annotation.Action;
 import org.jeasy.rules.annotation.Condition;
 import org.jeasy.rules.annotation.Rule;
 
-@Rule(name="Hello world rule", description = "Always say hello world")
+@Rule(name = "Hello world rule", description = "Always say hello world")
 public class HelloWorldRule {
 
     @Condition
@@ -13,7 +13,7 @@ public class HelloWorldRule {
     }
 
     @Action
-    public void then(){
+    public void then() {
         System.out.println("Hello world.");
     }
 }
