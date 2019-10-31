@@ -11,6 +11,7 @@
         <module>graphql-sample</module>
         <module>spring-aop-sample</module>
         <module>springboot-aop-sample</module>
+        <module>jdk-sample</module>
     </modules>
     <packaging>pom</packaging>
 
