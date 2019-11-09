@@ -6,12 +6,13 @@
     <artifactId>jws-java-sample</artifactId>
     <version>1.0.0</version>
     <modules>
-        <module>aws-sample</module>
-        <module>easy-rules-sample</module>
-        <module>graphql-sample</module>
-        <module>spring-aop-sample</module>
-        <module>springboot-aop-sample</module>
-        <module>jdk-sample</module>
+        <module>aws</module>
+        <module>easy-rules</module>
+        <module>graphql</module>
+        <module>spring-aop</module>
+        <module>springboot-aop</module>
+        <module>jdk</module>
+        <module>design</module>
     </modules>
     <packaging>pom</packaging>
 
