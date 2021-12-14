@@ -16,7 +16,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <easy.rules.version>3.3.0</easy.rules.version>
         <slf4j.version>1.7.25</slf4j.version>
-        <log4j.version>2.11.1</log4j.version>
+        <log4j.version>2.16.0</log4j.version>
         <aws.version>1.11.584</aws.version>
         <graphql.version>11.0</graphql.version>
 
